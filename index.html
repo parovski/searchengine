@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" type="text/css" href="./css/app.css">
+</head>
+<body>
+<div class="googleSearch">
+    <form method="get" id='search'>
+        <input type="hidden" name="key" value=""/>
+        <input type="text" name="q" id="q" placeholder="Search..."/>
+        <input type="submit" value="Search"/>
+    </form>
+    <div class="googleImages">
+				<h3 class="contentTitle">Image result</h3>
+			 	<div class="googleImages2"></div>	
+    </div>
+    <div class="googleLinks">
+				<h3 class="contentTitle">Web result</h3>
+				<div class="googleLinks2"></div>
+				<div class="pagination"></div>
+    </div>
+</div>
+<script src="./js/app.js"></script>
+<script src="./js/errors.js"></script>
+</body>
+</html>
